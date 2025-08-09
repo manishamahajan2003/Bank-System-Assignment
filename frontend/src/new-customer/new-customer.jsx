@@ -23,7 +23,7 @@ export function NewCustomer() {
         }
 
         try {
-            const res = await fetch('https://your-backend.onrender.com/api/accounts/create', {
+            const res = await fetch('http://localhost:5000/api/accounts/create', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
