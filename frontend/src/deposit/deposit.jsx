@@ -22,7 +22,7 @@ export function Deposit() {
         }
 
         try {
-            const res = await fetch('http://localhost:5000/api/accounts/deposit', {
+            const res = await fetch('https://bank-system-backend-2fdm.onrender.com/api/accounts/deposit', {
                 method: 'PUT',
                 headers: {
                     'Accept': 'application/json',
