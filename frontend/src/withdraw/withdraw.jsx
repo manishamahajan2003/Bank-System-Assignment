@@ -22,7 +22,7 @@ export function Withdraw() {
         }
 
         try {
-            const res = await fetch('http://localhost:5000/api/accounts/withdraw', {
+            const res = await fetch('https://bank-system-backend-2fdm.onrender.com/api/accounts/withdraw', {
                 method: 'PUT',
                 headers: {
                     'Accept': 'application/json',
