@@ -23,7 +23,7 @@ export function Transfer() {
         }
 
         try {
-            const res = await fetch('http://localhost:5000/api/accounts/transfer', {
+            const res = await fetch('https://your-backend.onrender.com/api/accounts/transfer', {
                 method: 'PUT',
                 headers: {
                     'Accept': 'application/json',
