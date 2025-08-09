@@ -23,7 +23,7 @@ export function Balance() {
         }
 
         try {
-            const res = await fetch(`https://your-backend.onrender.com/api/accounts/balance/${acId}`);
+            const res = await fetch(`http://localhost:5000/api/accounts/balance/${acId}`);
             
             if (!res.ok) {
                 const errorData = await res.json().catch(() => ({}));
